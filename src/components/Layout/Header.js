@@ -8,11 +8,11 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import Logo from "../imges/logo.png";
+import Logo from "../imges/logo(1).svg";
 
 import MenuIcon from "@mui/icons-material/Menu";
 import { NavLink } from "react-router-dom";
-import '../../styles/HeaderStyles.css'
+import "../../styles/HeaderStyles.css";
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   // hndle menu click
@@ -72,7 +72,7 @@ const Header = () => {
               component="div"
               sx={{ flexGrow: 1 }}
             >
-              <img src={Logo} alt="logo" height={"50"} width="200" />
+              <img src={Logo} alt="logo" height={"70"} width="250" />
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation-menu">
