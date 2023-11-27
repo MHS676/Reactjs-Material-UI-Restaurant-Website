@@ -7,7 +7,7 @@ const About = () => {
     <Layout>
       <Box sx={{my: 15, 
       textAlign: "center", 
-      p:2, 
+      p:11, 
       "& h4":{fontWeight: 'bold', 
       my:2, 
       fontSize: '2rem'}, 
@@ -29,6 +29,7 @@ const About = () => {
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem laudantium repellat odit dolorum aut eveniet quis quasi ad consequatur delectus at praesentium asperiores adipisci temporibus rerum aliquid, ipsum accusantium enim officiis vel iusto. Id alias quisquam quae sit natus iste a impedit quasi, similique magni veritatis molestias ipsa, minima repellendus deleniti rerum blanditiis beatae repellat fugiat amet debitis. Voluptatem cupiditate illum impedit facere rem accusamus modi, quis perspiciatis nihil optio similique unde minima alias velit pariatur odit consectetur saepe. Distinctio laboriosam id asperiores est voluptates, expedita nihil pariatur optio dolorum odit nam aspernatur sunt in voluptas a voluptatem maiores accusantium.
         </p>
+        
       </Box>
     </Layout>
   )
